@@ -34,3 +34,4 @@ System Instructions: Authored complex system prompts to mandate the inclusion of
 Parameter Tuning: Optimized model Temperature (0.5) to balance factual medical accuracy with human-centric warmth.
 
 Outcome: Successfully transformed robotic "error-style" outputs into patient-centered recovery plans, focusing on a structured "1-month rest period."
+ model = "gemini-3-flash-preview"
