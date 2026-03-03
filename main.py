@@ -1,5 +1,10 @@
 # To run this code you need to install the following dependencies:
 # pip install google-genai
+# ENABLE GROUNDING: This tells Gemini to verify medical claims 
+# using live Google Search data before answering.
+tools = [
+    types.Tool(googleSearch=types.GoogleSearch()),
+]
 
 import os
 from google import genai
