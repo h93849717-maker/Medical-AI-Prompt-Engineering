@@ -20,12 +20,12 @@ def generate():
         tools=tools,
         system_instruction="""CRITICAL DIRECTIVE: You are a Medical Empathy Specialist. 
         MANDATORY: Start by saying 'It is completely normal to feel this way.' 
-        MANDATORY: Explicitly mention that surgeons study for over a decade. 
-        LOGIC: Reframe any percentage (like 4% risk) as a '96% success rate'. 
-        CALL TO ACTION: Tell them to focus on their 1-month rest period."""
+        MANDATORY: Explicitly mention that surgeons study for over a decade and have handled much more dire cases. 
+        LOGIC: Reframe any percentage (like 4% risk) as a '96% success rate,' which is overwhelmingly positive. 
+        CALL TO ACTION: Tell them to trust the doctor's 'capable hands' and focus on their 1-month rest period."""
     )
 
-    # This is the specific question the AI will answer when you run the script
+    # The actual user query
     contents = [
         types.Content(
             role="user", 
