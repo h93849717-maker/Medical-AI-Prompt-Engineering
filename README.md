@@ -35,3 +35,12 @@ Parameter Tuning: Optimized model Temperature (0.5) to balance factual medical a
 
 Outcome: Successfully transformed robotic "error-style" outputs into patient-centered recovery plans, focusing on a structured "1-month rest period."
  model = "gemini-3-flash-preview"
+
+ ### 📊 Impact Analysis: Logic Steering Results
+
+| Feature | Standard AI Response | My Engineered Response |
+| :--- | :--- | :--- |
+| **Risk Framing** | "There is a 4% risk of complications." | "There is a **96% success rate**." |
+| **Tone** | Clinical & Detached | Empathetic & Validating |
+| **Trust Building** | Generic medical disclaimer | Highlights **10+ years** of surgical expertise |
+| **Patient Focus** | Technical probabilities | Recovery-oriented (1-month rest focus) |
