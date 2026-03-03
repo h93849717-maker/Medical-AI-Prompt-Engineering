@@ -1,7 +1,6 @@
 # To run this code you need to install the following dependencies:
 # pip install google-genai
-# ENABLE GROUNDING: This tells Gemini to verify medical claims 
-# using live Google Search data before answering.
+
 tools = [
     types.Tool(googleSearch=types.GoogleSearch()),
 ]
@@ -56,3 +55,9 @@ CALL TO ACTION: Tell them to trust the doctor's \"capable hands\" and focus on t
 
 if __name__ == "__main__":
     generate()
+
+# ENABLE GROUNDING: This tells Gemini to verify medical claims 
+# using live Google Search data before answering.
+tools = [
+    types.Tool(googleSearch=types.GoogleSearch()),
+]
